@@ -1,15 +1,15 @@
 module.exports = Object.freeze({
-  TOKEN: '946438606:AAFEI_QUW6qTGjQeI1oNxbGiPIID18sXuM8', //required
-  ARIA_SECRET: 'bhadoo', //change as per needs.
+  TOKEN: '1082221331:AAGs7P2Zk3aIhoC2Xs5rSpWEykF2JpUYH1k', //required
+  ARIA_SECRET: 'nadine', //change as per needs.
   ARIA_DOWNLOAD_LOCATION: '/app/downloads)', //-leave as it is
-  INDEX_DOMAIN: 'https://workers.workers.dev/', // replace with your index domain. use https://github.com/ParveenBhadooOfficial/go-drive
+  INDEX_DOMAIN: 'https://idflteam.gagarugu.workers.dev/', // replace with your index domain. use https://github.com/ParveenBhadooOfficial/go-drive
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION -leave as it is
   ARIA_FILTERED_DOMAINS: [], // Prevent downloading from URLs containing these substrings -leave as it is
   ARIA_FILTERED_FILENAMES: [], // Files/top level directories with these substrings in the filename won't be downloaded -leave as it is
   ARIA_PORT: 8210, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well -leave as it is
-  GDRIVE_PARENT_DIR_ID:  '1A3K2M4qSHmA4VZpOMUWWHweDyJBLAcgF', // for directorty eg. https://drive.google.com/drive/folders/1p7pHhSh2yboWePmo53DnVr3xkAYiojP9 use 1p7pHhSh2yboWePmo53DnVr3xkAYiojP9
-  SUDO_USERS: [646146866],	// Telegram user IDs. These users can use the bot in any chat. required, get it using https://t.me/YourTGid_Bot
-  AUTHORIZED_CHATS: [-1001350343006],	// Telegram chat IDs. Anyone in these chats can use the bot. Add https://t.me/YourTGid_Bot to Group and click /id
+  GDRIVE_PARENT_DIR_ID:  '1kfCKERILGR3aXyibIZkwb3wF4NhKevr1', // for directorty eg. https://drive.google.com/drive/folders/1p7pHhSh2yboWePmo53DnVr3xkAYiojP9 use 1p7pHhSh2yboWePmo53DnVr3xkAYiojP9
+  SUDO_USERS: [591530116],	// Telegram user IDs. These users can use the bot in any chat. required, get it using https://t.me/YourTGid_Bot
+  AUTHORIZED_CHATS: [],	// Telegram chat IDs. Anyone in these chats can use the bot. Add https://t.me/YourTGid_Bot to Group and click /id
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting -leave as it is
   DRIVE_FILE_PRIVATE: {
     ENABLED: false,
